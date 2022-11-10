@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment3/Module.symvers := sed 's/\.ko$$/\.o/' /home/yuanqing/homework/OS/assignment3/modules.order | scripts/mod/modpost -m -a  -o /home/yuanqing/homework/OS/assignment3/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment2/modules.order := {   echo /home/yuanqing/homework/OS/assignment2/hello.ko;   echo /home/yuanqing/homework/OS/assignment2/hellon.ko;   echo /home/yuanqing/homework/OS/assignment2/character_device.ko; :; } | awk '!x[$$0]++' - > /home/yuanqing/homework/OS/assignment2/modules.order

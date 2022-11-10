@@ -1,0 +1,452 @@
+================================
+Clock Cycle #: 1
+--------------------------------
+Fetch          : 0000 set R0, #46
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 2
+--------------------------------
+Decode         : 0000 set R0, #46
+Fetch          : 0004 set R1, #1
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 3
+--------------------------------
+EXa            : 0000 set R0, #46
+Decode         : 0004 set R1, #1
+Fetch          : 0008 set R4, #0
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 4
+--------------------------------
+Exb 1          : 0000 set R0, #46
+EXa            : 0004 set R1, #1
+Decode         : 0008 set R4, #0
+Fetch          : 0012 set R5, #1
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 5
+--------------------------------
+Exb 2          : 0000 set R0, #46
+Exb 1          : 0004 set R1, #1
+EXa            : 0008 set R4, #0
+Decode         : 0012 set R5, #1
+Fetch          : 0016 sub R2, R0, R1
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 6
+--------------------------------
+Memory 1       : 0000 set R0, #46
+Exb 2          : 0004 set R1, #1
+Exb 1          : 0008 set R4, #0
+EXa            : 0012 set R5, #1
+Decode         : 0016 sub R2, R0, R1
+Fetch          : 0020 bgez R2, #0028
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 7
+--------------------------------
+Memory 2       : 0000 set R0, #46
+Memory 1       : 0004 set R1, #1
+Exb 2          : 0008 set R4, #0
+Exb 1          : 0012 set R5, #1
+EXa            : 0016 sub R2, R0, R1
+Decode         : 0020 bgez R2, #0028
+Fetch          : 0024 ret
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 8
+--------------------------------
+Memory 3       : 0000 set R0, #46
+Memory 2       : 0004 set R1, #1
+Memory 1       : 0008 set R4, #0
+Exb 2          : 0012 set R5, #1
+Exb 1          : 0016 sub R2, R0, R1
+EXa            : 0020 bgez R2, #0028
+Decode         : 0024 ret
+Fetch          : 0028 add R3, R4, R5
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 9
+--------------------------------
+Memory 4       : 0000 set R0, #46
+Memory 3       : 0004 set R1, #1
+Memory 2       : 0008 set R4, #0
+Memory 1       : 0012 set R5, #1
+Exb 2          : 0016 sub R2, R0, R1
+Exb 1          : 0020 bgez R2, #0028
+EXa            : 0024 ret
+Decode         : 0028 add R3, R4, R5
+Fetch          : 0032 add R4, R5, #0
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 10
+--------------------------------
+Writeback      : 0000 set R0, #46
+Memory 4       : 0004 set R1, #1
+Memory 3       : 0008 set R4, #0
+Memory 2       : 0012 set R5, #1
+Memory 1       : 0016 sub R2, R0, R1
+Exb 2          : 0020 bgez R2, #0028
+Exb 1          : 0024 ret
+EXa            : 0028 add R3, R4, R5
+Decode         : 0032 add R4, R5, #0
+Fetch          : 0028 add R3, R4, R5
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 11
+--------------------------------
+Writeback      : 0004 set R1, #1
+Memory 4       : 0008 set R4, #0
+Memory 3       : 0012 set R5, #1
+Memory 2       : 0016 sub R2, R0, R1
+Memory 1       : 0020 bgez R2, #0028
+Exb 2          : 0024 ret
+Exb 1          : 0028 add R3, R4, R5
+EXa            : 0032 add R4, R5, #0
+Decode         : 0028 add R3, R4, R5
+Fetch          : 0032 add R4, R5, #0
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 12
+--------------------------------
+Writeback      : 0008 set R4, #0
+Memory 4       : 0012 set R5, #1
+Memory 3       : 0016 sub R2, R0, R1
+Memory 2       : 0020 bgez R2, #0028
+Memory 1       : 0024 ret
+Exb 2          : 0028 add R3, R4, R5
+Exb 1          : 0032 add R4, R5, #0
+EXa            : 0028 add R3, R4, R5
+Decode         : 0032 add R4, R5, #0
+Fetch          : 0036 add R5, R3, #0
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 13
+--------------------------------
+Writeback      : 0012 set R5, #1
+Memory 4       : 0016 sub R2, R0, R1
+Memory 3       : 0020 bgez R2, #0028
+Memory 2       : 0024 ret
+Memory 1       : 0028 add R3, R4, R5
+Exb 2          : 0032 add R4, R5, #0
+Exb 1          : 0028 add R3, R4, R5
+EXa            : 0032 add R4, R5, #0
+Decode         : 0036 add R5, R3, #0
+Fetch          : 0040 add R1, R1, #1
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 14
+--------------------------------
+Writeback      : 0016 sub R2, R0, R1
+Memory 4       : 0020 bgez R2, #0028
+Memory 3       : 0024 ret
+Memory 2       : 0028 add R3, R4, R5
+Memory 1       : 0032 add R4, R5, #0
+Exb 2          : 0028 add R3, R4, R5
+Exb 1          : 0032 add R4, R5, #0
+EXa            : 0036 add R5, R3, #0
+Decode         : 0040 add R1, R1, #1
+Fetch          : 0044 set R6, #0
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 15
+--------------------------------
+Writeback      : 0020 bgez R2, #0028
+Memory 4       : 0024 ret
+Memory 3       : 0028 add R3, R4, R5
+Memory 2       : 0032 add R4, R5, #0
+Memory 1       : 0028 add R3, R4, R5
+Exb 2          : 0032 add R4, R5, #0
+Exb 1          : 0036 add R5, R3, #0
+EXa            : 0040 add R1, R1, #1
+Decode         : 0044 set R6, #0
+Fetch          : 0048 blez R6, #0016
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+Clock Cycle #: 16
+--------------------------------
+Writeback      : 0024 ret
+Memory 4       : 0028 add R3, R4, R5
+Memory 3       : 0032 add R4, R5, #0
+Memory 2       : 0028 add R3, R4, R5
+Memory 1       : 0032 add R4, R5, #0
+Exb 2          : 0036 add R5, R3, #0
+Exb 1          : 0040 add R1, R1, #1
+EXa            : 0044 set R6, #0
+Decode         : 0048 blez R6, #0016
+=============== STATE OF ARCHITECTURAL REGISTER FILE ==========
+
+|   REG[ 0]   |   Value=0   |   Status=valid   |
+|   REG[ 1]   |   Value=0   |   Status=valid   |
+|   REG[ 2]   |   Value=0   |   Status=valid   |
+|   REG[ 3]   |   Value=0   |   Status=valid   |
+|   REG[ 4]   |   Value=0   |   Status=valid   |
+|   REG[ 5]   |   Value=0   |   Status=valid   |
+|   REG[ 6]   |   Value=0   |   Status=valid   |
+|   REG[ 7]   |   Value=0   |   Status=valid   |
+|   REG[ 8]   |   Value=0   |   Status=valid   |
+|   REG[ 9]   |   Value=0   |   Status=valid   |
+|   REG[10]   |   Value=0   |   Status=valid   |
+|   REG[11]   |   Value=0   |   Status=valid   |
+|   REG[12]   |   Value=0   |   Status=valid   |
+|   REG[13]   |   Value=0   |   Status=valid   |
+|   REG[14]   |   Value=0   |   Status=valid   |
+|   REG[15]   |   Value=0   |   Status=valid   |
+================================
+

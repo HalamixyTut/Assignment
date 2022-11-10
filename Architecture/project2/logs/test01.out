@@ -1,0 +1,8 @@
+Start...
+Number of ID stage stalls due to the full reservation station: 0 
+Number of ID stage stalls due to the full reorder buffer: 0 
+Number of fetch stalls: 279 
+
+Total execution cycles: 563
+IPC: 0.666075
+...End

@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment2/character_device.mod := { echo  /home/yuanqing/homework/OS/assignment2/character_device.o;  echo; } > /home/yuanqing/homework/OS/assignment2/character_device.mod

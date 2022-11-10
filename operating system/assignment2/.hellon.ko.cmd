@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment2/hellon.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/yuanqing/homework/OS/assignment2/hellon.ko /home/yuanqing/homework/OS/assignment2/hellon.o /home/yuanqing/homework/OS/assignment2/hellon.mod.o;  true

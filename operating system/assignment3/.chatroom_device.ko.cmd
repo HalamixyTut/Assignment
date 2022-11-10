@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment3/chatroom_device.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/yuanqing/homework/OS/assignment3/chatroom_device.ko /home/yuanqing/homework/OS/assignment3/chatroom_device.o /home/yuanqing/homework/OS/assignment3/chatroom_device.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/yuanqing/homework/OS/assignment3/chatroom_device.mod := { echo  /home/yuanqing/homework/OS/assignment3/chatroom_device.o;  echo; } > /home/yuanqing/homework/OS/assignment3/chatroom_device.mod

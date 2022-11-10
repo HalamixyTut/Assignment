@@ -1,0 +1,15 @@
+x1 y1 (z1)
+x2 y2 (z2)
+x3 y3 (z3)
+x4 y4 (z4)
+:
+: 
+:
+xn yn (zn)
+
+
+
+**************************************************************************************************************************************************
+Note: The format of input txt file is shown above. Each row contains one point and x y (z) coordinates are separated by white space. 
+In the description doc of assignment2, you can see some examples of input data. Your code should be able to handle those generated points as well.  
+**************************************************************************************************************************************************

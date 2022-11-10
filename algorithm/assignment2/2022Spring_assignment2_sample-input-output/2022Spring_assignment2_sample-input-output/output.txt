@@ -1,0 +1,1 @@
+closest pair points: p[0] and p[4], the smallest distance: 1.414214
